@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CatchTheOsmanProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Time:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51c-21-pKX">
+                                <rect key="frame" x="130" y="67" width="133" height="49"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="49" id="h3c-3q-4Lh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jph-Ma-Bt7">
+                                <rect key="frame" x="130" y="124" width="133" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="High Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dpE-90-9l7">
+                                <rect key="frame" x="130" y="704" width="133" height="49"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2023-02-25 at 15.52.44" translatesAutoresizingMaskIntoConstraints="NO" id="GZ7-dp-3qO">
+                                <rect key="frame" x="5" y="181" width="122" height="161"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="161" id="1BE-3Z-l3T"/>
+                                    <constraint firstAttribute="width" constant="122" id="hWI-7T-jT4"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2023-02-25 at 15.52.44" translatesAutoresizingMaskIntoConstraints="NO" id="rwl-Rr-ueR">
+                                <rect key="frame" x="134" y="181" width="122" height="161"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="O0t-55-7W9"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2023-02-25 at 15.52.44" translatesAutoresizingMaskIntoConstraints="NO" id="tL1-k9-wNu">
+                                <rect key="frame" x="264" y="181" width="122" height="161"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2023-02-25 at 15.52.44" translatesAutoresizingMaskIntoConstraints="NO" id="4ru-kP-e1W">
+                                <rect key="frame" x="5" y="535" width="122" height="161"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="WhatsApp Image 2023-02-25 at 15.52.44" translatesAutoresizingMaskIntoConstraints="NO" id="Oji-qI-nnI">
+                                <rect key="frame" x="135" y="535" width="122" height="161"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="WhatsApp Image 2023-02-25 at 15.52.44" translatesAutoresizingMaskIntoConstraints="NO" id="Hnv-Sh-nMq">
+                                <rect key="frame" x="265" y="535" width="122" height="161"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2023-02-25 at 15.52.44" translatesAutoresizingMaskIntoConstraints="NO" id="W3x-3T-azA">
+                                <rect key="frame" x="4" y="350" width="122" height="161"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="161" id="Z98-WR-bLA"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2023-02-25 at 15.52.44" translatesAutoresizingMaskIntoConstraints="NO" id="rah-GM-HEZ">
+                                <rect key="frame" x="134" y="350" width="122" height="161"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhatsApp Image 2023-02-25 at 15.52.44" translatesAutoresizingMaskIntoConstraints="NO" id="0O5-BF-GMK">
+                                <rect key="frame" x="264" y="350" width="122" height="161"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="51c-21-pKX" firstAttribute="trailing" secondItem="jph-Ma-Bt7" secondAttribute="trailing" id="1BQ-ki-0AM"/>
+                            <constraint firstItem="rwl-Rr-ueR" firstAttribute="top" secondItem="jph-Ma-Bt7" secondAttribute="bottom" constant="8" id="1Jd-24-7XS"/>
+                            <constraint firstItem="51c-21-pKX" firstAttribute="leading" secondItem="jph-Ma-Bt7" secondAttribute="leading" id="2VR-hu-pg8"/>
+                            <constraint firstItem="rwl-Rr-ueR" firstAttribute="leading" secondItem="GZ7-dp-3qO" secondAttribute="trailing" constant="7" id="4GP-QD-fwd"/>
+                            <constraint firstItem="rwl-Rr-ueR" firstAttribute="leading" secondItem="rah-GM-HEZ" secondAttribute="leading" id="6fS-DP-ozr"/>
+                            <constraint firstItem="Oji-qI-nnI" firstAttribute="bottom" secondItem="Hnv-Sh-nMq" secondAttribute="bottom" id="8xf-1U-Ci0"/>
+                            <constraint firstItem="rah-GM-HEZ" firstAttribute="leading" secondItem="W3x-3T-azA" secondAttribute="trailing" constant="8" id="9qp-zJ-kf7"/>
+                            <constraint firstItem="rah-GM-HEZ" firstAttribute="bottom" secondItem="0O5-BF-GMK" secondAttribute="bottom" id="9v3-II-LMQ"/>
+                            <constraint firstItem="GZ7-dp-3qO" firstAttribute="top" secondItem="rwl-Rr-ueR" secondAttribute="top" id="CXq-GZ-T4t"/>
+                            <constraint firstItem="GZ7-dp-3qO" firstAttribute="trailing" secondItem="4ru-kP-e1W" secondAttribute="trailing" id="D86-je-LgX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="dpE-90-9l7" secondAttribute="bottom" constant="65" id="DZ1-vd-LvX"/>
+                            <constraint firstItem="rwl-Rr-ueR" firstAttribute="top" secondItem="tL1-k9-wNu" secondAttribute="top" id="Da4-mc-f7r"/>
+                            <constraint firstItem="jph-Ma-Bt7" firstAttribute="trailing" secondItem="dpE-90-9l7" secondAttribute="trailing" id="ER2-xe-lCj"/>
+                            <constraint firstItem="tL1-k9-wNu" firstAttribute="leading" secondItem="0O5-BF-GMK" secondAttribute="leading" id="HfK-0F-KvE"/>
+                            <constraint firstItem="rwl-Rr-ueR" firstAttribute="trailing" secondItem="rah-GM-HEZ" secondAttribute="trailing" id="IDL-qt-IRJ"/>
+                            <constraint firstItem="GZ7-dp-3qO" firstAttribute="leading" secondItem="4ru-kP-e1W" secondAttribute="leading" id="IT1-ix-LAk"/>
+                            <constraint firstItem="GZ7-dp-3qO" firstAttribute="bottom" secondItem="rwl-Rr-ueR" secondAttribute="bottom" id="LUr-He-xoP"/>
+                            <constraint firstItem="Oji-qI-nnI" firstAttribute="centerX" secondItem="dpE-90-9l7" secondAttribute="centerX" id="NNL-Qx-Jb7"/>
+                            <constraint firstItem="4ru-kP-e1W" firstAttribute="bottom" secondItem="Oji-qI-nnI" secondAttribute="bottom" id="NQ7-um-z8w"/>
+                            <constraint firstItem="Oji-qI-nnI" firstAttribute="leading" secondItem="4ru-kP-e1W" secondAttribute="trailing" constant="8" id="OL3-cc-cKY"/>
+                            <constraint firstItem="GZ7-dp-3qO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="5" id="P0a-CU-WRr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tL1-k9-wNu" secondAttribute="trailing" constant="7" id="WAB-yt-jQQ"/>
+                            <constraint firstItem="tL1-k9-wNu" firstAttribute="leading" secondItem="rwl-Rr-ueR" secondAttribute="trailing" constant="8" id="XJZ-vo-SA2"/>
+                            <constraint firstItem="dpE-90-9l7" firstAttribute="top" secondItem="Oji-qI-nnI" secondAttribute="bottom" constant="8" id="Ya9-EA-EAd"/>
+                            <constraint firstItem="Oji-qI-nnI" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yu3-tW-gOh"/>
+                            <constraint firstItem="51c-21-pKX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="130" id="cul-MU-f6T"/>
+                            <constraint firstItem="jph-Ma-Bt7" firstAttribute="leading" secondItem="dpE-90-9l7" secondAttribute="leading" id="cyI-le-ccc"/>
+                            <constraint firstItem="W3x-3T-azA" firstAttribute="top" secondItem="rah-GM-HEZ" secondAttribute="top" id="dVr-0h-86D"/>
+                            <constraint firstItem="W3x-3T-azA" firstAttribute="bottom" secondItem="rah-GM-HEZ" secondAttribute="bottom" id="eUr-yJ-Q0p"/>
+                            <constraint firstItem="rah-GM-HEZ" firstAttribute="top" secondItem="0O5-BF-GMK" secondAttribute="top" id="ewK-H3-ES7"/>
+                            <constraint firstItem="W3x-3T-azA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="4" id="gIF-tW-R08"/>
+                            <constraint firstItem="Hnv-Sh-nMq" firstAttribute="leading" secondItem="Oji-qI-nnI" secondAttribute="trailing" constant="8" id="grp-Cm-yW8"/>
+                            <constraint firstItem="GZ7-dp-3qO" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="122" id="ht5-H4-2W1"/>
+                            <constraint firstItem="4ru-kP-e1W" firstAttribute="top" secondItem="W3x-3T-azA" secondAttribute="bottom" constant="24" id="iLD-Ch-suj"/>
+                            <constraint firstItem="tL1-k9-wNu" firstAttribute="trailing" secondItem="0O5-BF-GMK" secondAttribute="trailing" id="nk0-TE-LRn"/>
+                            <constraint firstItem="4ru-kP-e1W" firstAttribute="top" secondItem="Oji-qI-nnI" secondAttribute="top" id="p4U-hR-acK"/>
+                            <constraint firstItem="rwl-Rr-ueR" firstAttribute="bottom" secondItem="tL1-k9-wNu" secondAttribute="bottom" id="rL9-xl-sHW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Hnv-Sh-nMq" secondAttribute="trailing" constant="6" id="rbD-xf-HPs"/>
+                            <constraint firstItem="jph-Ma-Bt7" firstAttribute="top" secondItem="51c-21-pKX" secondAttribute="bottom" constant="8" id="umq-xA-egi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="4ru-kP-e1W" secondAttribute="bottom" constant="122" id="wcu-EN-fi6"/>
+                            <constraint firstItem="W3x-3T-azA" firstAttribute="top" secondItem="GZ7-dp-3qO" secondAttribute="bottom" constant="8" id="wj2-Kh-JuH"/>
+                            <constraint firstItem="Oji-qI-nnI" firstAttribute="top" secondItem="Hnv-Sh-nMq" secondAttribute="top" id="xMd-Qk-wCW"/>
+                            <constraint firstItem="51c-21-pKX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="8" id="zLa-So-2Mk"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="highScoreLabel" destination="dpE-90-9l7" id="TNr-V9-7fc"/>
+                        <outlet property="osman1" destination="GZ7-dp-3qO" id="jt9-L3-HwV"/>
+                        <outlet property="osman2" destination="rwl-Rr-ueR" id="Ais-eJ-7w9"/>
+                        <outlet property="osman3" destination="tL1-k9-wNu" id="1Uh-xt-uAg"/>
+                        <outlet property="osman4" destination="W3x-3T-azA" id="l73-ZR-TV5"/>
+                        <outlet property="osman5" destination="rah-GM-HEZ" id="0aN-IC-U5g"/>
+                        <outlet property="osman6" destination="0O5-BF-GMK" id="iPH-fx-J9r"/>
+                        <outlet property="osman7" destination="4ru-kP-e1W" id="Qmp-Ez-MY8"/>
+                        <outlet property="osman8" destination="Oji-qI-nnI" id="sOr-EQ-e6i"/>
+                        <outlet property="osman9" destination="Hnv-Sh-nMq" id="dHz-3F-iui"/>
+                        <outlet property="scoreLabel" destination="jph-Ma-Bt7" id="2rN-EB-ct1"/>
+                        <outlet property="timeLabel" destination="51c-21-pKX" id="w0X-w1-ma5"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="101.5267175572519" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="WhatsApp Image 2023-02-25 at 15.52.44" width="1600" height="720"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
